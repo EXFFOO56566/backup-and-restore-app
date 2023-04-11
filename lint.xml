@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="InlinedApi">
+        <ignore path="src/com/backupandrestorepoint/MainActivity.java" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src/com/backupandrestorepoint/MainActivity.java" />
+        <ignore path="src/com/backupandrestorepoint/SmsBackupActivity.java" />
+        <ignore path="src/com/backupdata/AppMainActivity.java" />
+        <ignore path="src/com/shaafstudio/backup/restore/smscontacts/BookMarksActivity.java" />
+        <ignore path="src/com/shaafstudio/backup/restore/smscontacts/CalendarActivity.java" />
+        <ignore path="src/com/shaafstudio/backup/restore/smscontacts/CallLogsActivity.java" />
+        <ignore path="src/com/shaafstudio/backup/restore/smscontacts/ContactsActivity.java" />
+        <ignore path="src/com/shaafstudio/backup/restore/smscontacts/SmsBackupActivity.java" />
+    </issue>
+</lint>

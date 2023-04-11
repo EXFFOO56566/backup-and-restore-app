@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_for_backup_file" />
+    <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:id="@id/tvBackupLocation" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/_storage_sdcard0_smscontactsbackups_sms" />
+    <EditText android:textColor="#ffffffff" android:textColorHint="#ffffffff" android:id="@id/etFileName" android:background="@android:color/transparent" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:hint="@string/enter_file_name" />
+</LinearLayout>
